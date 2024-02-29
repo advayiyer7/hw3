@@ -143,9 +143,9 @@ TEST_F(HeapTest, TwoElementPush_HighPriFirst)
 	heap.push(49);
 	EXPECT_EQ(49, heap.top());
 
-	heap.pop();
+	 heap.pop();
 
-	EXPECT_EQ(50, heap.top());
+	 EXPECT_EQ(50, heap.top());
 }
 
 TEST_F(HeapTest, Duplicates)
